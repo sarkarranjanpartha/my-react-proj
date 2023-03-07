@@ -40,8 +40,12 @@ const LoginPage = () => {
           onChange={passwordChangeHandler}
         />
       </div>
-      <div >
-        <button className="login__actions" type="submit" onClick={loginSubmitHandler}>
+      <div>
+        <button
+          className="login__actions"
+          type="submit"
+          onClick={loginSubmitHandler}
+        >
           Login
         </button>
       </div>
